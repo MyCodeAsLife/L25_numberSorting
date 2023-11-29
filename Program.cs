@@ -24,7 +24,6 @@ namespace L25_numberSorting
                 mainArray[i] = random.Next(minNumber, maxNumber + 1);
                 Console.Write(mainArray[i] + " ");
             }
-
             Console.WriteLine('\n');
 
             while (isSorting)
