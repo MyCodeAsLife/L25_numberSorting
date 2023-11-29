@@ -24,6 +24,7 @@ namespace L25_numberSorting
                 mainArray[i] = random.Next(minNumber, maxNumber + 1);
                 Console.Write(mainArray[i] + " ");
             }
+
             Console.WriteLine('\n');
 
             while (isSorting)
@@ -41,12 +42,12 @@ namespace L25_numberSorting
                     }
                 }
             }
+
             Console.WriteLine("Отсортированный массив:");
 
             foreach (var item in mainArray)
-            {
                 Console.Write(item + " ");
-            }
+
             Console.WriteLine();
         }
     }
